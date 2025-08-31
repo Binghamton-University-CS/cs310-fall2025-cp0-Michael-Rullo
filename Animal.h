@@ -1,3 +1,5 @@
+#ifndef ANIMAL_H
+#define ANIMAL_H
 #include <iostream>
 #include <stdlib.h>
 
@@ -18,3 +20,4 @@ class Animal {
       string species = "";
       unsigned int year_discovered = 0;
 };
+#endif

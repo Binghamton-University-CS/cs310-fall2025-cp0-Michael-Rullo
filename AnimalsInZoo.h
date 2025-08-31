@@ -1,3 +1,5 @@
+#ifndef ANIMALSINZOO_H
+#define ANIMSLSINZOO_H
 #include <stdlib.h>
 #include <iostream>
 #include "Animal.h"
@@ -17,3 +19,4 @@ class AnimalsInZoo {
   int numAnimals;
   Animal animal;
 };
+#endif
