@@ -4,6 +4,6 @@
 
 using namespace std;
 
-void display(String species, unsigned int year_discovered) {
+void Animal::display() {
   cout << species << " [" << year_discovered << "] " << endl;
 }

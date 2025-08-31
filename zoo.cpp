@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include "Animal.h"
+#include "AnimalsInZoo.h"
 
 int main() {
    Animal *animal1 = new Animal("African Elephant", 1758);
@@ -14,5 +15,9 @@ int main() {
    animal2.display();
    animal1->display();
 
+   AnimalsInZoo animal3inZoo(animal3);
+   animal3inZoo.display();
+   
    delete animal1;
+   return 0;
 }

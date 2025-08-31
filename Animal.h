@@ -12,7 +12,7 @@ class Animal {
 
       Animal() : species(""), year_discovered(0) {};
 
-      void display(String species, unsigned int year_discovered) {};
+      void display();
 
    private:
       string species = "";
