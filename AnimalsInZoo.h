@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <iostream>
+#include "Animal.h"
 
 class AnimalsInZoo {
  public:
